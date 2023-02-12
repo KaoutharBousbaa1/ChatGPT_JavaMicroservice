@@ -5,15 +5,15 @@ This project is a Java microservice that communicates with the AI's API endpoint
 
 Here's what the code does in more detail:
 
-The main method starts by printing a message asking the user to input a question. The user input is read and stored in a string variable.
+1- The main method starts by printing a message asking the user to input a question. The user input is read and stored in a string variable.
 
-The getAnswerFromChatGpt method is then called, passing the user's question as a parameter. This method sends an HTTP GET request to the ChatGpt API endpoint, including the API key and the question as parameters.
+2- The getAnswerFromChatGpt method is then called, passing the user's question as a parameter. This method sends an HTTP GET request to the ChatGpt API endpoint, including the API key and the question as parameters.
 
-The response from the API is read and returned as a string. If the API returns an error code, an error message is printed to the console.
+3- The response from the API is read and returned as a string. If the API returns an error code, an error message is printed to the console.
 
-The appendQuestionAndAnswerToCsv method is called, passing the question and answer as parameters. This method opens the "questions_and_answers.csv" file (or creates it if it doesn't exist), appends a new line with the question and answer separated by a semicolon, and closes the file. If there's an error writing to the file, an error message is printed to the console.
+4- The appendQuestionAndAnswerToCsv method is called, passing the question and answer as parameters. This method opens the "questions_and_answers.csv" file (or creates it if it doesn't exist), appends a new line with the question and answer separated by a semicolon, and closes the file. If there's an error writing to the file, an error message is printed to the console.
 
-Finally, the answer is printed to the console.
+4- Finally, the answer is printed to the console.
 
 
 ## Prerequisites
