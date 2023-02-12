@@ -1,4 +1,4 @@
-# ChatGPT_JavaMicroservice
+# ChatGPT Microservice
 
 This project is a Java microservice that communicates with the AI's API endpoint. Note that to communicate with the AI's API endpoint, first you will need to create an API key. You can use this key to authenticate your API requests and access the AI's functionality.
 
