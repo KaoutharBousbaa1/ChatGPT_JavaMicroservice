@@ -1,5 +1,5 @@
 # ChatGPT Microservice
-## A simple command line application that uses the ChatGPT API to retrieve answers to natural language questions, and saves the questions and answers to a CSV file.
+## A command line application that uses the ChatGPT API to retrieve answers to natural language questions, and saves the questions and answers to a CSV file.
 
 This project is a Java microservice that communicates with the AI's API endpoint. Note that to communicate with the AI's API endpoint, first you will need to create an API key. You can use this key to authenticate your API requests and access the AI's functionality.
 
